@@ -51,7 +51,7 @@ if (!mongoUrl) {
     process.exit(1);
 }
 mongoose_1.default.connect(mongoUrl, {}).then(() => {
-    console.log("mongo db is connecte");
+    console.log("mongo db is connected");
 })
     .catch((error) => {
     console.log(error);

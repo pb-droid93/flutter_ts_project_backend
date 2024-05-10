@@ -34,7 +34,7 @@ if(!mongoUrl){
 }
 
 mongoose.connect(mongoUrl,{}).then(()=>{
-    console.log("mongo db is connecte");
+    console.log("mongo db is connected");
 })
 .catch((error)=>{
 
